@@ -13,6 +13,7 @@ body {
   border-radius: 20px;
   padding: 15px;
   width: 335px;
+  height: 410px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,6 +34,22 @@ body {
   overflow: hidden;
   padding: 12px 15px;
   width: 265px;
+  z-index: 1;
+}
+
+#screenOp {
+  position: absolute;
+  margin-top: -12px;
+  margin-left: 225px;
+  background: #EF5D5D;
+  border: 2px solid black;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  height: 23px;
+  overflow: hidden;
+  padding: 10px 20px;
+  width: 23px;
   z-index: 1;
 }
 
@@ -60,6 +77,23 @@ body {
 .l-row {
   position: absolute;
   top: 354px;
+}
+
+.i-row {
+  position: absolute;
+  top: 405px;
+}
+
+#integral {
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
 }
 
 .buttons {
