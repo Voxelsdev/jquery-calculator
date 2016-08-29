@@ -37,22 +37,6 @@ body {
   z-index: 1;
 }
 
-#screenOp {
-  position: absolute;
-  margin-top: -12px;
-  margin-left: 225px;
-  background: #EF5D5D;
-  border: 2px solid black;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.4em;
-  font-weight: 600;
-  height: 23px;
-  overflow: hidden;
-  padding: 10px 20px;
-  width: 23px;
-  z-index: 1;
-}
-
 #zero {
   width: 225px;
 }

@@ -3,7 +3,7 @@ var firstNum = 0,
     operator = '',
     editingFirst = true,
     secondNum = 0;
-audio = new Audio('https://soundcloud.com/techno-sound/nyan-cat-song');
+    audio = new Audio('https://soundcloud.com/techno-sound/nyan-cat-song');
 
 function addNum(event) {
     $target = $(event.target);
@@ -23,7 +23,6 @@ function setOperator(event) {
     var $target = $(event.target);
     if (event.target.id !== 'clear' && event.target.id !== 'equals') {
         operator = $target.text();
-        $('#screenOp').text($target.text());
         editingFirst = false;
     }
 }
