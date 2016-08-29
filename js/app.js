@@ -8,16 +8,15 @@ var firstNum = 0,
 function addNum(event) {
     $target = $(event.target);
     if (!$target.hasClass('operator') && !$target.hasClass('buttons')) {
-      var $temp = $screen.children().clone();
         if (editingFirst) {
             firstNum = firstNum * 10 + parseInt($target.text());
-            $screen.text(firstNum + temp);
+            $screen.text(firstNum);
         } else {
             secondNum = secondNum * 10 + parseInt($target.text());
-            $screen.text(secondNum + temp);
+            $screen.text(secondNum);
         }
     }
-}
+}s
 
 function setOperator(event) {
     var $target = $(event.target);
